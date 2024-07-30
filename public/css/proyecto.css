@@ -1,0 +1,219 @@
+body {
+  background-image: url('../img/fondo.png');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#header{
+  background-color: #004C19 ;
+}
+footer{
+  background-color: #004C19;
+  color: white;
+  padding: 20px 0;
+}
+.footer-heading {
+  text-decoration: underline;
+}
+.footer-heading hr {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.footer-logo {
+  width: 180px;
+}
+.footer-column p, .footer-column h6 {
+  margin-bottom: 2px; /* Ajusta el margen entre párrafos y encabezados */
+}
+.footer-column p:last-child {
+  margin-top: -2px; /* Ajusta el margen superior solo para el último párrafo */
+}
+/* Estilos para la sección de comentarios */
+.comment-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.comment-section input[type="text"],
+.comment-section textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.comment-section button {
+  padding: 10px 20px;
+  background-color: #004C19;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*estilos para ventanaContactenos*/
+hr {
+height: 4px; /* Altura del hr */
+border: none; /* Elimina el borde predeterminado */
+background-color: #6d2c17b6; /* Color de fondo del hr */
+margin-top: 0%; /* Márgenes superior e inferior */
+}
+.modal {
+display: none; /* Oculta el modal */
+position: fixed; /*el modal se queda en su lugar aunq se desplace la pag */
+z-index: 1000; /*sobrepone el modal sobre el contenido de la pag */
+left: 0; /* Ubicación izquierda */
+top: 0; /* Ubicación superior*/
+width: 100%; /* Ancho */
+height: 100%; /* Alto*/
+overflow: auto; /* desplazamiento si el contenido es demasiado grande */
+background-color: rgba(0,0,0,0.4); /*semitransparente oscuro*/
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+background-color: #e2e1e1;
+color: #000000; /* Color del texto dentro del modal */
+margin: 15% auto; /* Margen superior e inferior del contenido del modal (auto para centrarlo verticalmente) */
+padding: 20px; /* Espaciado interno*/
+border: 1px solid #888;
+width: 42%; /* Ancho del contenido del modal (ajustar según sea necesario) */
+height: 35%; /* Altura del contenido del modal (ajustar según sea necesario) */
+}
+
+/* Estilo para el botón de cerrar el modal */
+.close {
+color: #aaa;
+position: absolute; /* Cambiar a posición absoluta para posicionar libremente */
+top: 10px; /* Distancia desde el borde superior del modal */
+right: 20px; /* Distancia desde el borde derecho del modal */
+float: right; /* Posición flotante a la derecha del botón de cerrar */
+font-size: 28px; /* Tamaño de fuente del btn de cerrar */
+font-weight: bold; /* Peso de la fuente del botón de cerrar */
+}
+
+/* Estilo para el botón de cerrar del modal al pasar el mouse o enfocarlo */
+.close:hover,
+.close:focus {
+color: black; /* Cambia el color del texto al pasar el mouse o enfocar el botón de cerrar */
+text-decoration: none; /* Elimina la subrayado al pasar el mouse o enfocar el botón de cerrar */
+cursor: pointer; /* Cambia el cursor a una mano al pasar el mouse sobre el botón de cerrar */
+}
+
+.imgVentana {
+border: 2px solid #000;
+border-radius: 10px; 
+}
+
+/* Estilo para los iconos */
+.contact-info {
+display: flex;
+align-items: center;
+margin-bottom: 10px; /* Espacio entre cada línea */
+}
+
+.contact-icon {
+width: 30px; /* Ancho de la imagen */
+height: auto; /* Mantener la proporción */
+margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/*estilos para ventanaContactenos*/
+
+/*estilos para ventanaHorarios*/
+#modalHorario {
+background-color: #e2e1e1;
+color: #060505; /* Color del texto dentro del modal */
+margin: 15% auto; /* Margen superior e inferior del contenido del modal (auto para centrarlo verticalmente) */
+padding: 20px; /* Espaciado interno*/
+border: 2px solid #888;
+border-radius: 2%;
+width: 30%; /* Ancho del contenido del modal (ajustar según sea necesario) */
+height: 30%; /* Altura del contenido del modal (ajustar según sea necesario) */
+}
+
+.ventana {
+display: none; /* Oculta el modal */
+position: fixed; /*el modal se queda en su lugar aunq se desplace la pag */
+z-index: 1000; /*sobrepone el modal sobre el contenido de la pag */
+left: 0; /* Ubicación izquierda */
+top: 0; /* Ubicación superior*/
+width: 100%; /* Ancho */
+height: auto; /* Alto*/
+overflow: auto; /* desplazamiento si el contenido es demasiado grande */
+background-color: rgba(0,0,0,0.4); /*semitransparente oscuro*/
+}
+
+/* Estilo para el botón de cerrar el modal */
+.close {
+color: #aaa;
+position: absolute; /* Cambiar a posición absoluta para posicionar libremente */
+top: 10px; /* Distancia desde el borde superior del modal */
+right: 20px; /* Distancia desde el borde derecho del modal */
+float: right; /* Posición flotante a la derecha del botón de cerrar */
+font-size: 28px; /* Tamaño de fuente del btn de cerrar */
+font-weight: bold; /* Peso de la fuente del botón de cerrar */
+}
+
+/* Estilo para el botón de cerrar del modal al pasar el mouse o enfocarlo */
+.close:hover,
+.close:focus {
+color: black; /* Cambia el color del texto al pasar el mouse o enfocar el botón de cerrar */
+text-decoration: none; /* Elimina la subrayado al pasar el mouse o enfocar el botón de cerrar */
+cursor: pointer; /* Cambia el cursor a una mano al pasar el mouse sobre el botón de cerrar */
+}
+
+/*estilos para misionVision*/
